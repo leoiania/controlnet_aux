@@ -230,5 +230,7 @@ class OpenposeDetector:
 
         if output_type == "pil":
             detected_map = Image.fromarray(detected_map)
+        if output_type == "poses":
+            return poses
 
         return detected_map
