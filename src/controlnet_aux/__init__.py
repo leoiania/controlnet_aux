@@ -13,5 +13,5 @@ from .zoe import ZoeDetector
 
 from .canny import CannyDetector
 from .mediapipe_face import MediapipeFaceDetector
-from .segment_anything import SamDetector
+#from .segment_anything import SamDetector
 from .shuffle import ContentShuffleDetector
